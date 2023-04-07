@@ -15,16 +15,18 @@ BuildRequires:  python3-devel
 BuildRequires:  python3dist(setuptools)
 
 %description
-<img src" width"45%">[![PyPI version shields.io]( ![Python: 3.x]( [![License:
-GPLv3]( [![Downloads]( [![Issues: ](
+Visual Python is a GUI-based Python code generator, developed on the Jupyter Lab, Jupyter Notebook and Google Colab as an extension.
+It can help manage big data with minimal coding skills, help students / business analysts / researchers to overcome learning barriers for Python, 
+and save & reuse repeatedly used codes(snippets).
 
 %package -n     python3-%{pypi_name}
 Summary:        %{summary}
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
 %description -n python3-%{pypi_name}
-<img src" width"45%">[![PyPI version shields.io]( ![Python: 3.x]( [![License:
-GPLv3]( [![Downloads]( [![Issues: ](
+Visual Python is a GUI-based Python code generator, developed on the Jupyter Lab, Jupyter Notebook and Google Colab as an extension.
+It can help manage big data with minimal coding skills, help students / business analysts / researchers to overcome learning barriers for Python, 
+and save & reuse repeatedly used codes(snippets).
 
 
 %prep
